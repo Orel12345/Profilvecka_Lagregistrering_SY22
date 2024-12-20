@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registrera lag </title>
+	<link rel="stylesheet" href="/static/teams.css">
+	
+</head>
+<body>
+	<header>
+		<h1>Registrera lag</h1>
+	</header>
+
+	<form action="/teams" method="POST">
+		<input type="text" name="teamName" placeholder="Lagnamn" required>
+		<input type="text" name="city" placeholder="Stad" required>
+		<input type="number" name="players" min="5" max="12" placeholder="Antal Spelare" required>
+		<input type="text" name="ageGroup" placeholder="Åldersgrupp" required>
+		<button type="submit">Registrera Lag</button>
+	</form>
+</body>
+</html>

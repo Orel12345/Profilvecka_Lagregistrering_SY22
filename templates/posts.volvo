@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>%{teamName}% - Lag Namn</title>
+    <link rel="stylesheet" href="/static/teams.css">
+</head>
+<body>
+    <header>
+        <h1>%{teamName}%</h1>
+    </header>
+
+    <h2>Lag Namn</h2>
+    <p>%{teamName}%</p>
+    <h2>Stad</h2>
+    <p>%{city}%</p>
+    <h2>Antal Spelare</h2>
+    <p>%{players}%</p>
+    <h2>Åldersgrupp</h2>
+    <p>%{ageGroup}%</p>
+</body>
+</html>
